@@ -1,8 +1,10 @@
 # Evidential Sparsification of Multimodal Latent Spaces in CVAEs
 
-This repository contains the code for the paper: "Evidential Sparsification of Multimodal Latent Spaces in Conditional Variational Autoencoders" by Masha Itkina, Boris Ivanovic, Ransalu Senanayake, Mykel J. Kochenderfer, and Marco Pavone, presented at NeurIPS 2020. 
+This repository contains the code for the paper: "Evidential Sparsification of Multimodal Latent Spaces in Conditional Variational Autoencoders" by Masha Itkina, Boris Ivanovic, Ransalu Senanayake, Mykel J. Kochenderfer, and Marco Pavone, presented at NeurIPS 2020.
 
-The code runs the qualitative and quantitative training iteration experiments for the tasks of image generation and behavior prediction. The required dependencies are listed in dependencies.txt. To run the MNIST, FashionMNIST, and NotMNIST image generation experiments, please run the following files:
+The code runs the qualitative and quantitative training iteration experiments for the tasks of image generation and behavior prediction. The required dependencies are listed in dependencies.txt. 
+
+To run the MNIST, FashionMNIST, and NotMNIST image generation experiments, please run the following files:
 
 run_mnist.sh
 run_fashion.sh
