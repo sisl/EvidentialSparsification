@@ -16,7 +16,7 @@ For training:
 
 run_vqvae.sh
 
-For evaluation on pre-trained models:
+If you want to use the pre-trained models, download them from: https://drive.google.com/drive/folders/1MOM9WZQd3tB-aG-hlwhHZFrDehJqLsbE?usp=sharing. Then place "best_prior.pt" into VQVAE/VQVAE/models_pretrained/ and place "wide_resnet50_2.pt" into VQVAE/classifier/models. To evaluate the pre-trained models, run:
 
 run_vqvae_pretrained.sh
 
